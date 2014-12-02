@@ -4,6 +4,6 @@ Jeffrey Sukharev, Leonid Zhukov, Alexandrin Popescul "Parallel corpus approach f
 
 Format:
 records25k_data.tsv
-<last name #1> <last name #2> <coocurrence counter> <marginal counter last name #1> <marginal counter last name #2>
+'last name #1' 'last name #2' 'coocurrence counter' 'marginal counter last name #1' 'marginal counter last name #2'
 same format for 
 search12.5k_data.tsv
