@@ -10,7 +10,7 @@ records25k_data.tsv (5 columns)<br>
 <b>marginal counter last name #1</b><tab align=right> : counter of last name #1 among tree node last names<br>
 <b>marginal counter last name #2</b><tab align=right> : counter of last name #2 among last name in Ancestry records<br>
 
-search12.5k_data.tsv
+search12.5k_data.tsv<br>
 <b>last name #1</b><tab align=right> : last name originated from user search logs<br>
 <b>last name #2</b><tab align=right> : last name originated from user search reformulation (also from search logs)<br>
 <b>coocurrence counter</b><tab align=right> : number of identical pairs in Search dataset<br>
