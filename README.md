@@ -3,7 +3,24 @@ This dataset, and any portions thereof, may be downloaded and reused without per
 Jeffrey Sukharev, Leonid Zhukov, Alexandrin Popescul "Parallel corpus approach for name matching in record linkage" Proceedings of IEEE ICDM 2014, Shenzhen, China.
 
 Format:
-records25k_data.tsv
-'last name #1' 'last name #2' 'coocurrence counter' 'marginal counter last name #1' 'marginal counter last name #2'
-same format for 
+records25k_data.tsv (5 columns)
+'last name #1' 			: last name originated from Ancestry user tree nodes
+'last name #2' 			: last name originated from Ancestry records
+'coocurrence counter' 		: number of identical name pairs in Records dataset
+'marginal counter last name #1' : counter of last name #1 among tree node last names
+'marginal counter last name #2' : counter of last name #2 among last name in Ancestry records
+
 search12.5k_data.tsv
+'last name #1'                  : last name originated from user search logs
+'last name #2'                  : last name originated from user search reformulation (also from search logs)
+'coocurrence counter'           : number of identical pairs in Search dataset
+'marginal counter last name #1' : counter of last name #1 in search logs 
+'marginal counter last name #2' : counter of last name #2 in search logs  
+
+search_surnames_counts_250k.tsv (2 columns)
+'last name' 
+'counter'
+
+search_surnames_counts_250k.tsv
+'last name' 
+'counter'
